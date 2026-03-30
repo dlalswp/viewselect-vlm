@@ -1,0 +1,11 @@
+{
+  "n_total_images": 183,
+  "n_total_scenes": 45,
+  "n_train_images": 80,
+  "n_val_images": 40,
+  "n_demo_images": 63,
+  "n_train_scenes": 16,
+  "n_val_scenes": 8,
+  "n_demo_scenes": 21,
+  "n_complete_5view_scenes": 24
+}

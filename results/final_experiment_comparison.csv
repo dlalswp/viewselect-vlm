@@ -1,0 +1,5 @@
+﻿stage,avg_final_views_per_scene,mean_step_nextview_agreement,mean_step_stop_agreement,n_eval_scenes,termination_reason_counts,note
+26_deployable_rollout_baseline,,,,,{},deployable baseline before augmentation
+30_deployable_stopfix_rollout,2.6666666666666665,0.75,0.736111111111111,6.0,"{""predicted_stop"": 6}",stop feature enrichment only
+31_hybrid_guard_rollout,3.1666666666666665,0.75,0.5694444444444444,6.0,"{""predicted_stop"": 3, ""missing_transition"": 3}",hybrid stop guard search
+39_augmented_rollout_final,4.5,0.53125,1.0,8.0,"{""no_remaining_candidates"": 4, ""predicted_stop"": 4}",external augmentation + retrain final rollout

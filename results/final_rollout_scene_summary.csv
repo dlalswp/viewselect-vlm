@@ -1,0 +1,9 @@
+﻿scene_id,final_observed_views,final_n_observed_views,termination_reason,n_select_steps,n_stop_steps,predicted_final_action,final_teacher_action,final_teacher_stop_label,stop_probability,source_type,protocol_tag,step_nextview_agreement_mean,step_stop_agreement_mean,current_coverage_vs_oracle
+phase2_scene01,front|left|right|front_left|front_right,5,no_remaining_candidates,4,1,STOP,STOP,1,0.9999719763931333,internal,internal_phase2_5view,0.75,1.0,1.0
+phase2_scene02,front|left|right|front_left,4,predicted_stop,3,1,STOP,STOP,1,0.9999719763931333,internal,internal_phase2_5view,0.6666666666666666,1.0,1.0
+phase2_scene03,front|left|right|front_left|front_right,5,no_remaining_candidates,4,1,STOP,STOP,1,0.9999719763931333,internal,internal_phase2_5view,0.5,1.0,1.0
+phase2_scene04,front|left|right|front_left,4,predicted_stop,3,1,STOP,STOP,1,0.9999719763931333,internal,internal_phase2_5view,0.6666666666666666,1.0,1.0
+phase2_scene05,front|left|right|front_right,4,predicted_stop,3,1,STOP,STOP,1,0.9999719763931333,internal,internal_phase2_5view,0.3333333333333333,1.0,1.0
+phase2_scene06,front|left|right|front_left|front_right,5,no_remaining_candidates,4,1,STOP,STOP,1,0.9999719763931333,internal,internal_phase2_5view,0.25,1.0,1.0
+phase2_scene07,front|left|right|front_left|front_right,5,no_remaining_candidates,4,1,STOP,STOP,1,0.9999719763931333,internal,internal_phase2_5view,0.75,1.0,1.0
+phase2_scene08,front|left|right|front_left,4,predicted_stop,3,1,STOP,STOP,1,0.9999719763931333,internal,internal_phase2_5view,0.3333333333333333,1.0,1.0

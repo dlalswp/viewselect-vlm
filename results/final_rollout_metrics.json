@@ -1,0 +1,13 @@
+{
+  "n_eval_scenes": 8,
+  "n_trace_rows": 36,
+  "avg_steps_per_scene": 4.5,
+  "avg_final_views_per_scene": 4.5,
+  "mean_step_nextview_agreement": 0.53125,
+  "mean_step_stop_agreement": 1.0,
+  "mean_current_coverage_vs_oracle": 1.0,
+  "termination_reason_counts": {
+    "no_remaining_candidates": 4,
+    "predicted_stop": 4
+  }
+}

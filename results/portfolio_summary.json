@@ -1,0 +1,45 @@
+{
+  "project_title": "Budget-Aware Active Multi-View Scene Understanding",
+  "one_line_summary": "멀티뷰 장면 이해에서 다음 시점을 선택하고 언제 촬영을 멈출지 결정하는 active perception prototype을 구현하고, 외부 실사 멀티뷰 보강으로 성능을 개선한 프로젝트.",
+  "problem_statement": "제한된 촬영 예산에서 장면 이해 품질을 유지하면서 다음 view 선택과 stop decision을 동시에 수행하는 경량 active inference pipeline 구축.",
+  "final_key_results": {
+    "avg_final_views_per_scene_final": 4.5,
+    "mean_step_nextview_agreement_final": 0.53125,
+    "mean_step_stop_agreement_final": 1.0,
+    "guidance_final_views": [
+      "front",
+      "left",
+      "front_left",
+      "right",
+      "front_right"
+    ],
+    "guidance_termination_reason": "no_remaining_candidates"
+  },
+  "data_summary": {
+    "n_total_images": 183,
+    "n_total_scenes": 45,
+    "n_train_scenes": 16,
+    "n_val_scenes": 8,
+    "n_demo_scenes": 21,
+    "n_external_caption_rows": 80,
+    "n_external_scenes_captioned": 16
+  },
+  "best_models": {
+    "selector_model": "hist_gb",
+    "selector_val_macro_f1": 0.5609989156953104,
+    "selector_val_top2_accuracy": 0.8695652173913043,
+    "stop_model": "hist_gb",
+    "stop_best_threshold": 0.2,
+    "stop_val_macro_f1": 1.0
+  },
+  "contributions": [
+    "멀티뷰 장면에서 front를 기준으로 한 부분 관측 state space 설계",
+    "teacher action / stop label 생성 및 feature bank 구축",
+    "selector(next-view) + stop(binary) 모델 학습",
+    "interactive guidance prototype 구현",
+    "ARKitScenes raw 기반 external pseudo 5-view 실사 데이터 보강",
+    "augmented retrain 및 rollout / guidance 재평가 수행"
+  ],
+  "artifact_index_path": "/content/drive/MyDrive/grad_project_master/03_results/tables/41_artifact_index.csv",
+  "comparison_table_path": "/content/drive/MyDrive/grad_project_master/03_results/tables/41_final_experiment_comparison.csv"
+}

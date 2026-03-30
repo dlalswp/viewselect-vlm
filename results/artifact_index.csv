@@ -1,0 +1,13 @@
+﻿category,description,path,exists
+data,merged image manifest,/content/drive/MyDrive/grad_project_master/03_results/tables/35_merged_multiview_image_manifest.csv,1
+data,merged scene manifest,/content/drive/MyDrive/grad_project_master/03_results/tables/35_merged_multiview_scene_manifest.csv,1
+data,augmented caption cache,/content/drive/MyDrive/grad_project_master/03_results/tables/36_augmented_combined_view_caption_cache.csv,1
+data,augmented feature bank,/content/drive/MyDrive/grad_project_master/03_results/tables/37_augmented_feature_bank.csv,1
+data,augmented feature columns,/content/drive/MyDrive/grad_project_master/03_results/tables/37_augmented_feature_columns.json,1
+model,best selector model,/content/drive/MyDrive/grad_project_master/04_artifacts/models/augmented_selector_stop/38_augmented_selector_best_model.joblib,1
+model,best stop model,/content/drive/MyDrive/grad_project_master/04_artifacts/models/augmented_selector_stop/38_augmented_stop_best_model.joblib,1
+model,best stop threshold,/content/drive/MyDrive/grad_project_master/04_artifacts/models/augmented_selector_stop/38_augmented_stop_best_threshold.json,1
+eval,final rollout metrics,/content/drive/MyDrive/grad_project_master/04_artifacts/evaluation/augmented_active_inference/39_augmented_rollout_metrics.json,1
+eval,final rollout scene summary,/content/drive/MyDrive/grad_project_master/04_artifacts/evaluation/augmented_active_inference/39_augmented_rollout_scene_summary.csv,1
+demo,final guidance trace,/content/drive/MyDrive/grad_project_master/04_artifacts/demo/augmented_guidance/40_augmented_guidance_trace.csv,1
+demo,final guidance summary,/content/drive/MyDrive/grad_project_master/04_artifacts/demo/augmented_guidance/40_augmented_guidance_summary.json,1
